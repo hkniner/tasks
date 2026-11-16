@@ -13,7 +13,7 @@ export function CheckAnswer({
     }
     return (
         <div>
-            <Form.Group controlId="formUserAnswer">
+            <Form.Group controlId="formUserAnswer" as={Row}>
                 <Form.Label>Your answer:</Form.Label>
                 <Form.Control
                     type="text"
